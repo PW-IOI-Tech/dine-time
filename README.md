@@ -1,4 +1,4 @@
-Here is the updated README file for **DineTime** in the exact format you requested.
+
 
 ```markdown
 # DineTime
@@ -49,7 +49,6 @@ tests/
 
 ```
 
----
 
 ## Git Flow
 
