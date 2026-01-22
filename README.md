@@ -1,6 +1,4 @@
-Here is the updated README file for **DineTime** in the exact format you requested.
 
-```markdown
 # DineTime
 
 A mobile application designed to streamline restaurant bookings and management. Built with **Expo (React Native)** and **Firebase**, it allows users to discover restaurants, book tables, and manage reservations seamlessly in real-time.
@@ -31,7 +29,6 @@ npx expo start
 
 ```
 
----
 
 ## Project Structure
 
