@@ -1,6 +1,7 @@
-# Project Name
 
-A short description of what this project does and why it exists.
+# DineTime
+
+A mobile application designed to streamline restaurant bookings and management. Built with **Expo (React Native)** and **Firebase**, it allows users to discover restaurants, book tables, and manage reservations seamlessly in real-time.
 
 This project is maintained under **PW Institute of Innovation – Open Source** and follows real-world open-source development practices.
 
@@ -11,29 +12,38 @@ This project is maintained under **PW Institute of Innovation – Open Source** 
 ### Prerequisites
 
 - Git
-- Required language/runtime (Node.js / Python / Java, etc.)
+- Node.js (LTS version)
+- Expo Go App (for testing on physical devices)
 
 ### Installation
 
 ```bash
-git clone https://github.com/ORG_NAME/REPO_NAME.git
+git clone [https://github.com/Darkshadow-ssh/dinetime.git](https://github.com/Darkshadow-ssh/dinetime.git)
+
 ```
 
 ```bash
-cd REPO_NAME
-install dependencies here
-run the project here
+cd dinetime
+npx expo install
+npx expo start
+
 ```
 
----
 
 ## Project Structure
 
 ```text
 src/
+├── components/   # Reusable UI components
+├── screens/      # Application screens (Home, Booking, Profile)
+├── navigation/   # Navigation configuration
+├── services/     # Firebase and API services
+├── utils/        # Helper functions
+├── assets/       # Static assets (images, fonts)
 docs/
 tests/
 .github/
+
 ```
 
 ---
@@ -42,13 +52,13 @@ tests/
 
 This project follows Git Flow:
 
-| Branch     | Use case           |
-| ---------- | ------------------ |
-| main       | Production-ready   |
-| develop    | Active development |
-| feature/\* | New features       |
-| bugfix/\*  | Bug fixes          |
-| hotfix/\*  | Critical fixes     |
+| Branch | Use case |
+| --- | --- |
+| main | Production-ready |
+| develop | Active development |
+| feature/* | New features |
+| bugfix/* | Bug fixes |
+| hotfix/* | Critical fixes |
 
 ---
 
@@ -56,10 +66,10 @@ This project follows Git Flow:
 
 Use the provided Issue Templates:
 
-- Bug Report
-- Feature Request
-- Documentation
-- Chore
+* Bug Report
+* Feature Request
+* Documentation
+* Chore
 
 Blank issues are disabled.
 
@@ -67,22 +77,22 @@ Blank issues are disabled.
 
 We use a consistent labeling system across all repositories.
 
-| Issue Types     | Difficulty         | Status         | Priority           |
-| --------------- | ------------------ | -------------- | ------------------ |
-| `bug`           | `good first issue` | `help wanted`  | `priority: high`   |
-| `feature`       | `easy`             | `in progress`  | `priority: medium` |
-| `enhancement`   | `medium`           | `blocked`      | `priority: low`    |
-| `documentation` | `hard`             | `needs review` |
-| `refactor`      |                    |                |
-| `chore`         |                    |                |
-| `discussion`    |                    |                |
+| Issue Types | Difficulty | Status | Priority |
+| --- | --- | --- | --- |
+| `bug` | `good first issue` | `help wanted` | `priority: high` |
+| `feature` | `easy` | `in progress` | `priority: medium` |
+| `enhancement` | `medium` | `blocked` | `priority: low` |
+| `documentation` | `hard` | `needs review` |  |
+| `refactor` |  |  |  |
+| `chore` |  |  |  |
+| `discussion` |  |  |  |
 
 Please use:
 
-- **One Issue Type**
-- **One Difficulty**
-- **One Priority (optional)**
-- **One Status (maintainers only)**
+* **One Issue Type**
+* **One Difficulty**
+* **One Priority (optional)**
+* **One Status (maintainers only)**
 
 This helps us triage and respond faster.
 
@@ -90,16 +100,16 @@ This helps us triage and respond faster.
 
 ## Pull Requests
 
-- Follow the PR template
-- Link issues using Fixes #<issue-number>
-- Ensure all checks pass before review
+* Follow the PR template
+* Link issues using Fixes #<issue-number>
+* Ensure all checks pass before review
 
 ---
 
 ## Credits
 
-- **Original Author(s):** Name(s) / Github handle(s)
-- **Maintainers:** See repository contributors
+* **Original Author(s):** [Darkshadow-ssh](https://www.google.com/search?q=https://github.com/Darkshadow-ssh)
+* **Maintainers:** See repository contributors
 
 ## Contributing
 
@@ -115,4 +125,10 @@ See CODE_OF_CONDUCT.md.
 
 ## License
 
-Add your license information here.
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+```
+
+### Would you like me to generate the `CONTRIBUTING.md` file next to match this setup?
+
+```

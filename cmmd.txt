@@ -1,0 +1,5 @@
+IOS xcrun simctl list devices available 
+xcrun simctl boot B957490A-54C5-499C-ABA3-7A75740AA8C0       
+xcrun simctl shutdown all  
+npm run ios  Android  
+npm run android   
