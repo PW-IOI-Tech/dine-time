@@ -113,13 +113,13 @@ This helps us triage and respond faster.
 
 ## Contributing
 
-See CONTRIBUTING.md for details.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 ---
 
 ## Code of Conduct
 
-See CODE_OF_CONDUCT.md.
+See [CODE_OF_CONDUCT.md](./CODE_OFCONDUCT.md).
 
 ---
 
