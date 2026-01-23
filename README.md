@@ -108,7 +108,7 @@ This helps us triage and respond faster.
 
 ## Credits
 
-* **Original Author(s):** [Darkshadow-ssh](https://www.google.com/search?q=https://github.com/Darkshadow-ssh)
+* **Original Author(s):** [Sarthak Chauhan](https://www.google.com/search?q=https://github.com/Darkshadow-ssh)
 * **Maintainers:** See repository contributors
 
 ## Contributing
@@ -125,10 +125,4 @@ See CODE_OF_CONDUCT.md.
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-```
-
-### Would you like me to generate the `CONTRIBUTING.md` file next to match this setup?
-
-```
+Add your Liscence here.
